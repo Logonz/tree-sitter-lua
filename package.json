@@ -22,6 +22,8 @@
   "author": "Ademir José Ferreira Júnior <ademirj.ferreirajunior@gmail.com> (https://github.com/Azganoth)",
   "license": "MIT",
   "scripts": {
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
     "install": "node-gyp-build",
     "prebuildify": "prebuildify --napi --strip",
     "prestart": "tree-sitter build --wasm",
