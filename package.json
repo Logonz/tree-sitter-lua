@@ -27,7 +27,7 @@
     "prestart": "tree-sitter build --wasm",
     "build": "npx tree-sitter generate --no-bindings",
     "start": "tree-sitter playground",
-    "test": "node --test bindings/node/*_test.js"
+    "test": "node --test bindings/node/binding_test.js"
   },
   "dependencies": {
     "nan": "^2.20.0",
